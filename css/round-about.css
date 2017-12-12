@@ -1,0 +1,281 @@
+body {
+  padding-top: 110px;
+  padding-left: 0px;
+text-decoration: none;
+}
+
+.storebody{
+	padding-top: 0px;
+  padding-left: 0px;
+text-decoration: none;
+}
+
+.homebody{
+	padding-top: 54px;
+	padding-left: 50px;
+}
+
+@media (min-width: 992px) {
+  body {
+	padding-top: 56px;
+	text-decoration: none;
+	/* [disabled]clear: left; */
+  }
+
+}
+
+
+
+img {
+	max-width: 100%;
+	text-decoration: none;
+	max-height: 100%;
+}
+
+
+.img_inner {
+	max-width: 100%;
+	 -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -o-box-sizing: border-box;
+ box-sizing: border-box;
+	margin-bottom: 26px;
+ margin-top: 3px;
+ border: 1px solid #e7e5e5;
+ position: relative;
+ text-decoration: none;
+}
+
+.wrapper, .extra_wrapper {
+	overflow: hidden;
+}
+
+.content {
+	padding-bottom: 67px;
+	padding-top:40px;
+}
+
+.page1 .content {
+	padding-bottom: 73px;
+}
+
+.cwrap {
+	width: 250px;
+	height: 250px;
+	margin-bottom: 4px;
+
+}
+
+.circle {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	height: 100%;
+	border-radius: 50%;
+-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	box-shadow: 0 0 0 16px rgba(255, 255, 255, 0.65) inset, 0 1px 2px rgba(0, 0, 0, 0.1)
+}
+
+.circle.c1 {
+	background: url(../images/Orb1.jpg) 0 0 no-repeat;
+}
+
+.circle.c2 {
+	background: url(../images/Orb2.jpg) 0 0 no-repeat;
+
+}
+
+.circle.c3 {
+	background: url(../images/Orb3.jpg) 0 0 no-repeat;
+}
+.circle.c4 {
+	background: url(../images/Hat.jpg) 0 0 no-repeat;
+}
+.circle.c5 {
+	background: url(../images/Top2.jpg) 0 0 no-repeat;
+}
+.circle.c6 {
+	background: url(../images/shorts.jpg) 0 0 no-repeat;
+}
+.circle.c7 {
+	background: url(../images/socks.jpg) 0 0 no-repeat;
+}
+.circle.c8 {
+	background: url(../images/shoes.jpg) 0 0 no-repeat;
+}
+.circle.c9 {
+	background: url(../images/Donate.jpg) 0 0 no-repeat;
+}
+
+.circle:hover{
+	box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0 1px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0 1px 2px rgba(0,0,0,0.1);
+	text-decoration: none;
+}
+
+.circle.c3:hover  {
+	box-shadow: none !important;
+	text-decoration: none;
+}
+
+
+.circle:hover .info {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	text-decoration: none;
+}
+
+
+.circle:after, .circle:before {
+	content: "";
+	display: table;
+	-webkit-box-shadow: inset 0px 0px;
+	box-shadow: inset 0px 0px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+.circle2 {
+	overflow: hidden;
+	width: 10%;
+	height: 10%;
+	position: relative;
+	border-radius: 50%;
+-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.65) inset, 0 1px 2px rgba(0, 0, 0, 0.1)
+}
+
+@media (max-width: 576px){
+	.circle2{
+		width: 17%;
+		height: 17%;
+	}
+}
+
+@media (min-width: 610px){
+	.circle2{
+		width: 11%;
+		height: 11%;
+	}
+}
+@media (min-width: 630px){
+	.circle2{
+		width: 11%;
+		height: 11%;
+	}
+}
+@media (min-width: 768px){
+	.circle2{
+		width: 8.25%;
+		height: 8.25%;
+	}
+}
+@media (min-width: 992px) {
+	.circle2{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+.circle2:hover{
+	box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0 1px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0 1px 2px rgba(0,0,0,0.1);
+	text-decoration: none;
+}
+
+
+
+.circle2:after, .circle2:before {
+	content: "";
+	display: table;
+	-webkit-box-shadow: inset 0px 0px;
+	box-shadow: inset 0px 0px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.info {
+	overflow: hidden;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	   background: url(../images/info_bg.png) repeat;
+    border-radius: 50% 50% 50% 50%;
+    height: inherit;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    -webkit-transform: scale(0);
+     -moz-transform: scale(0);
+     -ms-transform: scale(0);
+     -o-transform: scale(0);
+     transform: scale(0);
+    
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition:all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    width: inherit;
+	text-decoration: none;
+}
+
+.info .title {
+	padding-bottom: 39px;
+	font: 26px 'Dosis', sans-serif;
+	margin: 0 35px 18px;
+	padding-top: 70px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.info  a {
+	text-transform: uppercase;
+	display: inline-block;
+	color: #787878;
+	margin-top: 25px;
+	text-decoration: none;
+}
+
+.info a:hover {
+	color: #B1B1B1;
+	text-decoration: none;
+}
+
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
